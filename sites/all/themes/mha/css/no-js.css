@@ -1,0 +1,102 @@
+.no_scr {
+    position: static;
+    width: 100%;
+    display: block;
+    background: #FFFF00;
+    padding: 9px;
+    border: 1px solid #cfd1d0;
+    color: red;
+    font-weight: 600;
+    text-align: center;
+}
+.nav-wrapper {
+    height: auto;
+}
+.nav-wrapper ul ul {
+    position: static !important;
+}
+.nav-wrapper ul li {
+    margin: 2px;
+    float: none;
+}
+.nav-wrapper ul li a{
+    background: rgba(0,0,0,0.1);
+}
+.nav-wrapper ul ul li {
+    margin: 0px;
+    background: none;
+    list-style-type: disc;
+    display: list-item;
+    margin-left: 29px;
+    color: #fff;
+}
+.nav-wrapper ul ul li a{
+    background: none;
+}
+.nav-wrapper ul ul li a, .nav-wrapper ul ul li:first-child a{
+    padding-left: 0 !important;
+}
+.nav-wrapper ul ul {
+    width: auto;
+}
+.common-wrapper {
+    z-index: 1010;
+}
+.nav-wrapper ul ul ul {
+    left: 100%;
+    position: static !important;
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px;
+            box-shadow: 0px 0px;
+}
+.ico-site-search .both-search .find{display:none!important;}
+.ico-site-search .both-search .google-find{display:block!important;}
+.main-goi-form{
+	display:none; 
+}
+.google-find{
+	position:relative;
+	max-width: 270px;
+}
+.google-find div {
+    font-size: 100%;
+}
+
+.flexslider .slides > li {
+    display: block !important;
+}
+.flexslider .slides li img {
+    width: auto;
+}
+
+/*=====================*/
+.megamenu-wraper{
+height:auto;
+}
+.megamenu-wraper .main-menu * {
+   display:block !important;
+   width:100%;
+}
+.megamenu-wraper .main-menu  * {
+    display: inline-block !important;
+    width: 100%;
+    float: none;
+    height: inherit;
+    position: relative;
+    top: 0;
+	left:0!important;
+	margin:0 !important;
+	margin-left:0!important;
+}
+.megamenu-wraper .main-menu  * a.nolink{font-weight:900;}
+.megamenu-wraper .main-menu  li a * {
+	width:auto !important;
+	display:inline-block !important;
+}
+.megamenu-wraper .main-menu * .responsive-toggle {
+	display:none  !important;
+}
+
+/*=====================*/
+.megamenu-wraper .main-menu * ul ul >li >span.nolink {margin-left:15px !important; margin-top:10px !important; cursor:default;}
