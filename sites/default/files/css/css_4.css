@@ -322,7 +322,7 @@ a:focus {
     float: left;
     padding: 20px;
     margin: 0;
-    max-width: 580px;
+    max-width: 700px;
     width: 100%
 }
 
@@ -408,7 +408,7 @@ a.btns-more:hover,a.btns-more:focus {
 
 .whats-main-right-container {
     width: 100%;
-    max-width: 580px;
+    max-width: 400px;
     float: right
 }
 
@@ -3226,8 +3226,8 @@ body {
 }
 
 .minister-box ul li {
-    float: left !important;
-    width: 48% !important;
+    
+   
     margin-left: 4px !important;
     margin-top: 11px;
 }
