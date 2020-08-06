@@ -504,7 +504,7 @@ a.btns-more:hover,a.btns-more:focus {
 .catg-wrapper ul li h3 {
     font-size: 140%;
     font-weight: 600;
-    color: rgba(255,255,255,1);
+    color:black;
     position: absolute;
     left: 19px;
     top: 18px;
